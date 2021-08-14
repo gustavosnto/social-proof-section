@@ -1,0 +1,76 @@
+@media (max-width: 52em) {
+    section.social-proof {
+        & .container {
+            & .proof-text {
+                flex-basis: 50%;
+                padding: 40px 0;
+
+                & h1 {
+                    font-size: 2.5em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 40em) {
+    section.social-proof {
+        & .container {
+            & .proof-text {
+                flex-basis: 100%;
+
+                & h1 {
+                    text-align: center;
+                }
+
+                & p {
+                    text-align: center;
+                }
+            }
+
+            & .proof-rating {
+                flex-basis: 100%;
+                padding: 0;
+
+                & .rating-box {
+                    max-width: 100%;
+                    text-align: center;
+
+                    & strong {
+                        display: block;
+                        padding-top: 10px;
+                    }
+                }
+
+                & .rb-cnt {
+                    margin-left: 0;
+                }
+    
+                & .rb-rgt {
+                    margin-left: 0;
+                }
+            }
+            
+            & .proof-testimonios {        
+                & .testimonios {
+                    flex-basis: 100%;
+                    padding: 30px 25px;
+                    margin-bottom: 20px;
+                }
+            }
+        
+            & .tm-lft {
+                margin-bottom: 0px;
+            }
+    
+            & .tm-cnt {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+    
+            & .tm-rgt {
+                margin-top: 0px;
+            }
+        }
+    }
+}
