@@ -178,6 +178,9 @@ section.social-proof .proof-testimonios .tm-rgt {
 }
 
 @media (max-width: 40em) {
+  body {
+    background-image: url(/images/bg-pattern-bottom-mobile.svg);
+  }
   section.social-proof .container .proof-text {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
